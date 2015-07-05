@@ -22,7 +22,7 @@ http.createServer(function (request, response) {
         if(_params['duck'] == 'butter'){
             response.end(debugOutput("<img src='http://bastardpiecetheater.com/wp-content/uploads/2009/02/clockwork_orange_got_milk_alex.jpg'/>"));
         }else{
-            response.end(debugOutput("<blink>Duck Butter</blink>"));
+            response.end(debugOutput("<BLINK>Duck Butter</BLINK>"));
         }
 
     });
